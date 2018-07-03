@@ -36,6 +36,7 @@ namespace CiTestProject.Controllers
         private static int RelativeTemp(int current)
         {
             return (int)Math.Floor( (float)( ( current - MinimumTemp ) / (double)Range ) * Summaries.Length);
+            obvious compile error.
         }
 
         public class WeatherForecast
